@@ -1,0 +1,27 @@
+HKCR
+{
+	dll.dllcontext.1 = s 'dllcontext Class'
+	{
+		CLSID = s '{E13F371F-7B4C-4D04-AE25-98332A50BEEE}'
+	}
+	dll.dllcontext = s 'dllcontext Class'
+	{
+		CLSID = s '{E13F371F-7B4C-4D04-AE25-98332A50BEEE}'
+		CurVer = s 'dll.dllcontext.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {E13F371F-7B4C-4D04-AE25-98332A50BEEE} = s 'dllcontext Class'
+		{
+			ProgID = s 'dll.dllcontext.1'
+			VersionIndependentProgID = s 'dll.dllcontext'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{C42C571D-3201-4A17-9070-C2332A2CF304}'
+		}
+	}
+}

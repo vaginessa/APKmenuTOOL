@@ -1,0 +1,36 @@
+// dll.idl : dll 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(dll.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(B5FD1743-DE9D-4383-B545-C424CE8403D0),
+	dual,
+	nonextensible,
+	helpstring("Idllcontext 接口"),
+	pointer_default(unique)
+]
+interface Idllcontext : IDispatch{
+};
+[
+	uuid(C42C571D-3201-4A17-9070-C2332A2CF304),
+	version(1.0),
+	helpstring("dll 1.0 类型库")
+]
+library dllLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(E13F371F-7B4C-4D04-AE25-98332A50BEEE),
+		helpstring("dllcontext Class")
+	]
+	coclass dllcontext
+	{
+		[default] interface Idllcontext;
+	};
+};

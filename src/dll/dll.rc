@@ -1,0 +1,169 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "1 TYPELIB ""dll.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "InternalName", "dll.dll"
+            VALUE "OriginalFilename", "dll.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_DLL                 REGISTRY                "dll.rgs"
+
+IDR_DLLCONTEXT          REGISTRY                "dllcontext.rgs"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG_LOGO            PNG                     "res\\logo.png"
+
+IDR_PNG_DEX2JAR         PNG                     "res\\dex2jar.png"
+
+IDR_PNG_M2TXT           PNG                     "res\\m2txt.png"
+
+IDR_PNG_APKINFO         PNG                     "res\\apkinfo.png"
+
+IDR_PNG_SIGNINFO        PNG                     "res\\signinfo.png"
+
+IDR_PNG_SIGN            PNG                     "res\\sign.png"
+
+IDR_PNG_INSTALL         PNG                     "res\\install.png"
+
+IDR_PNG_UNINSTALL       PNG                     "res\\uninstall.png"
+
+IDR_PNG_DECOM           PNG                     "res\\decom.png"
+
+IDR_PNG_COM             PNG                     "res\\comp.png"
+
+IDR_PNG_ABOUT           PNG                     "res\\about.png"
+
+IDR_PNG_DETECT          PNG                     "res\\detect.png"
+
+IDR_PNG_ALIGN           PNG                     "res\\align.png"
+
+IDR_PNG_PHOTO           PNG                     "res\\photo.png"
+
+IDR_PNG_EXTRACTICON     PNG                     "res\\extracticon.png"
+
+IDR_PNG_PHONE           PNG                     "res\\phone.png"
+
+IDR_PNG_CUSTOM          PNG                     "res\\custom.png"
+
+IDB_PNG1                PNG                     "res\\lib.png"
+
+IDB_PNG3                PNG                     "res\\deep2.png"
+
+IDB_PNG4                PNG                     "res\\regular.png"
+
+IDB_PNG2                PNG                     "res\\copypath.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_PROJNAME            "dll"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "dll.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
