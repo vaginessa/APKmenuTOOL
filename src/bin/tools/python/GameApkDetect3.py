@@ -20,7 +20,7 @@ class GameApkDetect:
         self.flash_regex = re.compile('libCore.so', re.I)
         self.neox_regex = re.compile('res.npk', re.I)
         self.u3d_dllpath = 'assets/bin/Data/Managed'
-        self.coco_regex=re.compile('libcocos2d(.).so', re.I)
+        self.coco_regex=re.compile('libcocos2d(.*).so', re.I)
     def __del__(self):
         if os.path.exists(self.unzippath):
             Utils.delete_dirs(self.unzippath)

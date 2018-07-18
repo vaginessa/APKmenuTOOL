@@ -21,7 +21,7 @@ class GameApkDetect:
         self.u3d_regex = re.compile('libmono.so', re.I)
         self.flash_regex = re.compile('libCore.so', re.I)
         self.neox_regex = re.compile('res.npk', re.I)
-        self.coco_regex = re.compile('libcocos2d(.).so', re.I)
+        self.coco_regex = re.compile('libcocos2d(.*).so', re.I)
         self.u3d_dllpath = 'assets/bin/Data/Managed'
 
     def __del__(self):
