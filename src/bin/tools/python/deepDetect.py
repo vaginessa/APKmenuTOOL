@@ -1,9 +1,9 @@
-#coding:utf-8
+﻿#coding:utf-8
 import sys
 import os
 import zipfile
 import subprocess
-from GameApkDetect3 import GameApkDetect
+from GameApkDetect import GameApkDetect
 from zipmgr import zipmgr
 import sys
 sys.setdefaultencoding('gbk')
